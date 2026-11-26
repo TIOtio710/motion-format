@@ -19,11 +19,14 @@ brief → gaya → gambar uji adegan 1 → naskah → suara → semua adegan →
 
 ## Pasang
 
-1. Unduh `motion-format-v2.0.0.zip` dari halaman Download kelas.
-2. Di Claude Code, kirim zip-nya dengan pesan: *"pasang skill motion-format dari zip ini ke folder
-   skill-ku. Kalau sudah ada versi lama, ganti dengan yang ini."*
-   Manual: ekstrak, lalu salin folder `motion-format` ke `~/.claude/skills/` (timpa yang lama).
-3. Mulai chat baru, lalu tanya: *"skill motion-format versi berapa yang aktif?"* → harus **2.0.0**.
+1. Ambil dari GitHub, langsung ke folder skill:
+   ```bash
+   git clone https://github.com/TIOtio710/motion-format.git ~/.claude/skills/motion-format
+   ```
+   Sudah pernah clone? Perbarui dengan `git -C ~/.claude/skills/motion-format pull`.
+   Tanpa git: di halaman repo klik **Code → Download ZIP**, ekstrak, lalu salin foldernya ke
+   `~/.claude/skills/motion-format`.
+2. Mulai chat baru, lalu tanya: *"skill motion-format versi berapa yang aktif?"* → harus **2.0.0**.
 
 Butuh: Google Chrome, Python 3, dan ffmpeg (Mac: `brew install ffmpeg`, Windows:
 `winget install Gyan.FFmpeg`). Untuk suara: salah satu dari Fish Audio, HeyGen, atau Agen Arman (MCP professionals.ai) di Kustomisasi → Konektor. Arman hanya ada di project `professionals-ai`; di project lain, buat Agent voice cloning dengan model OmniVoice.
