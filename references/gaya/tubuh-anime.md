@@ -81,7 +81,7 @@ Palet organ yang sudah terbukti (urutan: terang · dasar · gelap · bayangan 1 
 
 ## Suara
 
-- **VO ElevenLabs v4**: narasi edukasi santai, ramah, tidak menggurui. Pakai tag `[curious]` di kalimat pembuka, `[pause]` sebelum fakta penting, `[awe]` di kalimat penutup. Pakai suara berbeda per Part supaya seri tidak monoton. Kalimat pendek. Angka diucapkan dengan kata ("delapan puluh enam miliar") tapi ditulis dengan angka di layar. Panjang VO ±45–55 dtk untuk Shorts 55–60 dtk.
+- **VO**: narasi edukasi santai, ramah, tidak menggurui. Bila mesin mendukung tag, pakai `[curious]` di kalimat pembuka, `[pause]` sebelum fakta penting, `[awe]` di kalimat penutup. Pakai suara berbeda per Part supaya seri tidak monoton. Kalimat pendek. Angka diucapkan dengan kata ("delapan puluh enam miliar") tapi ditulis dengan angka di layar. Panjang VO ±45–55 dtk untuk Shorts 55–60 dtk.
 - **Musik**: instrumental piano lembut + strings + pad, ±70 BPM, tanpa vokal, satu musik untuk seluruh seri. Mesin otomatis meredam musik di bawah VO dan SFX (`music.duck` bawaan aktif), jadi `vol` ±0,25–0,3 sudah aman.
 - **SFX**: pelan dan jarang, maksimal 5 per video, volume 0,18–0,3. Satu bunyi per momen, diletakkan di jeda VO, tidak menimpa kata. Jangan pakai bunyi beruntun untuk deretan label. Contoh:
   - dengung lembut di detik 0;

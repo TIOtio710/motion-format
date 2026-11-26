@@ -56,7 +56,7 @@ Tokoh baru = entri baru di `TOKOH` (3 nada untuk kulit/rambut/baju/celemek/celan
 - Hindari: fade silang lambat, benda meluncur lurus tanpa easing, tokoh berpindah tanpa langkah.
 
 ## Suara
-- **VO ElevenLabs v4** sebagai *suara tokoh*, bukan narator dokumenter: hangat, ekspresif, sedikit lucu. Tag tulis tangan: `[surprised]`, `[sniffs]`, `[laughs]`, `[curious]`, `[pause]`. Dua tokoh = dua suara berbeda (pria/wanita). **Satu generasi per baris** → buang jeda > 0,3 dtk → tempo 1,05–1,1 → loudnorm −18.
+- **VO** sebagai *suara tokoh*, bukan narator dokumenter: hangat, ekspresif, sedikit lucu. Tag tulis tangan (bila mesin mendukung): `[surprised]`, `[sniffs]`, `[laughs]`, `[curious]`, `[pause]`. Dua tokoh = dua suara berbeda (pria/wanita). **Satu generasi per baris** → buang jeda > 0,3 dtk → tempo 1,05–1,1 → loudnorm −18.
 - Dialog lebih panjang dari dugaan: ±13 huruf/dtk. Shorts 30 dtk ≈ 400 huruf naskah.
 - Contoh naskah adegan pembuka (tag ditulis tangan, satu baris = satu file):
   ```

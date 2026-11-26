@@ -92,11 +92,11 @@ Naskah contoh (adegan pembuka di `scene.html`, tanpa VO, teks layar saja):
 - Ada musik → ukur BPM; potongan, hentakan kata, dan ketukan jari jatuh di ketukan.
 
 ## Suara
-- **Default promo, flash sale, launching: tanpa VO** (pola seri kami: promo/SaaS/opener cukup musik + SFX). Murid minta VO (iklan produk 15–30 dtk) → ElevenLabs `eleven_v4`, suara ramah-yakin, kalimat ≤ 8 kata. Tag: `[excited]` di hook, `[warm]` di produk, `[pause]` tepat sebelum harga, `[confident]` di harga & ajakan. Audisi 1 kalimat dulu (hemat kredit).
+- **Default promo, flash sale, launching: tanpa VO** (pola seri kami: promo/SaaS/opener cukup musik + SFX). Murid minta VO (iklan produk 15–30 dtk) → suara AI (Fish Audio/HeyGen/Agen Arman), suara ramah-yakin, kalimat ≤ 8 kata. Tag (bila mesin mendukung): `[excited]` di hook, `[warm]` di produk, `[pause]` tepat sebelum harga, `[confident]` di harga & ajakan. Audisi 1 kalimat dulu (hemat kredit).
 - **Musik:** hangat lokal = gitar akustik/lo-fi 90–105 BPM · premium = piano/ambient pulse 80–95 · pop = funk/hip-hop ringan 110–124 dengan drop di penawaran. Volume 0,15–0,2 di bawah VO, 0,45–0,55 tanpa VO.
 - **SFX:** satu bunyi per momen, ditaruh di jeda VO, paling banyak satu tiap ±1,5 dtk, volume 0,3–0,5. Label dan pil tidak perlu bunyi.
 
-| Momen (detik di contoh) | SFX (prompt ElevenLabs singkat) |
+| Momen (detik di contoh) | SFX (prompt singkat, lewat Fish Audio) |
 |---|---|
 | es jatuh ke gelas (0,3) | "ice cube dropping into iced coffee, small splash, close" |
 | kamera ditarik, cahaya masuk (1,6) | "soft airy whoosh, warm" |

@@ -55,7 +55,7 @@ Font yang sudah dipakai seri kami (hindari): Italiana, Aboreto, Federo, Della Re
 - Dunia tetap hidup: bendera, layar, kain, air, kabut, dan burung bergerak dari `t`, kapal sedikit mengangguk. Setiap ±2 dtk harus ada perubahan yang terlihat.
 
 ## Suara
-- **VO ElevenLabs v4:** narator dokumenter yang hangat dan tenang, tempo sedang. Tag `[serious]`/`[curious]` di awal bagian, `[pause]` antar-bagian. Satu suara per video. Naskah TTS menulis angka sebagai kata ("seribu empat ratus lima"), sedangkan teks layar memakai digit. VO mulai 0,6 dtk.
+- **VO:** narator dokumenter yang hangat dan tenang, tempo sedang. Tag (bila mesin mendukung) `[serious]`/`[curious]` di awal bagian, `[pause]` antar-bagian. Satu suara per video. Naskah TTS menulis angka sebagai kata ("seribu empat ratus lima"), sedangkan teks layar memakai digit. VO mulai 0,6 dtk.
 - Contoh nada: "[curious] Tahun seribu empat ratus lima… [pause] lebih dari tiga ratus kapal berlayar…". Kalimat pendek, satu fakta per kalimat.
 - **Musik:** orkestra ambient/drone hangat yang pelan, vol 0,35–0,4 dengan ducking di bawah VO.
 - **SFX:** satu bunyi singkat per momen, diletakkan di **jeda VO** (cari jeda dengan `silencedetect`). Jangan ada SFX beruntun, dan jangan menimpa kata. Vol 0,25–0,55. Contoh: dentum rendah saat judul, whoosh saat crane, kayu berderit (kapal), shimmer saat sinar-x. Loop ambience (ombak/angin) vol 0,08–0,14.

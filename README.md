@@ -1,7 +1,7 @@
 # Skill Motion Format v2.0.0
 
 Skill Claude untuk membuat video motion graphic lewat chat dengan alur kerja Motion Format:
-brief → gaya → gambar uji adegan 1 → naskah → suara ElevenLabs → semua adegan → revisi → MP4.
+brief → gaya → gambar uji adegan 1 → naskah → suara → semua adegan → revisi → MP4.
 
 ## Yang baru di v2
 
@@ -11,7 +11,7 @@ brief → gaya → gambar uji adegan 1 → naskah → suara ElevenLabs → semua
   masing-masing dengan contoh adegan yang langsung jalan.
 - **Gaya yang kamu sebut langsung dipakai.** Claude tidak lagi menawarkan gaya lain kalau kamu
   sudah menentukan gayanya. Belum menentukan? Claude memberi 3 pilihan.
-- **Gambar uji adegan 1 dulu**, baru suara. Kredit ElevenLabs tidak terbuang kalau gayanya
+- **Gambar uji adegan 1 dulu**, baru suara. Kredit suara tidak terbuang kalau gayanya
   masih direvisi.
 - **9:16 + subtitle per kata** jadi bawaan (Reels/TikTok/Shorts).
 - **Setiap revisi dicadangkan otomatis.** Bilang "balikin yang tadi" kapan saja.
@@ -26,7 +26,7 @@ brief → gaya → gambar uji adegan 1 → naskah → suara ElevenLabs → semua
 3. Mulai chat baru, lalu tanya: *"skill motion-format versi berapa yang aktif?"* → harus **2.0.0**.
 
 Butuh: Google Chrome, Python 3, dan ffmpeg (Mac: `brew install ffmpeg`, Windows:
-`winget install Gyan.FFmpeg`). Untuk suara: plugin ElevenLabs di Kustomisasi → Konektor.
+`winget install Gyan.FFmpeg`). Untuk suara: salah satu dari Fish Audio, HeyGen, atau Agen Arman (MCP professionals.ai) di Kustomisasi → Konektor. Arman hanya ada di project `professionals-ai`; di project lain, buat Agent voice cloning dengan model OmniVoice.
 
 > Punya skill lain untuk motion graphic yang terpasang bersamaan? Sebaiknya pakai salah satu saja,
 > supaya Claude tidak bingung memilih.

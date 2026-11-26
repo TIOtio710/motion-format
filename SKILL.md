@@ -1,6 +1,6 @@
 ---
 name: motion-format
-description: Bikin video motion graphic lewat chat dengan alur kerja Motion Format — Reels/TikTok/Shorts 9:16, YouTube 16:9, atau feed 1:1 — dari brief sampai MP4 bersuara (voiceover + efek suara ElevenLabs, subtitle per kata). Punya resep gaya siap pakai dari seri konten Motion Format: Isometrik Dibongkar (cara kerja mesin, 3D), Sejarah 3D Sinematik (bangunan & peristiwa bersejarah), Tubuh Manusia Anime (organ tubuh), Dunia 2D Bertekstur (noir, cat air, ukiran, lanskap anime), Kartun Cel Cerah (tokoh menjelaskan), Peta Relief Sinematik (geografi, jalur, wilayah), dan Promo Produk & Iklan (UMKM, aplikasi, flash sale) — plus cara meracik gaya sendiri. Gunakan setiap kali user meminta "video", "konten Reels/TikTok/Shorts", "explainer", "video edukasi", "video penjelasan", "promo", "iklan", "intro", "animasi", "motion graphic", menyebut salah satu gaya di atas atau "Resep Gaya", ingin menambah voiceover/efek suara/subtitle, ingin merevisi video yang sudah ada, atau ingin merender jadi MP4 — walau tidak menyebut kata "motion graphic".
+description: Bikin video motion graphic lewat chat dengan alur kerja Motion Format — Reels/TikTok/Shorts 9:16, YouTube 16:9, atau feed 1:1 — dari brief sampai MP4 bersuara (voiceover + efek suara Fish Audio/HeyGen/Agen Arman, subtitle per kata). Punya resep gaya siap pakai dari seri konten Motion Format: Isometrik Dibongkar (cara kerja mesin, 3D), Sejarah 3D Sinematik (bangunan & peristiwa bersejarah), Tubuh Manusia Anime (organ tubuh), Dunia 2D Bertekstur (noir, cat air, ukiran, lanskap anime), Kartun Cel Cerah (tokoh menjelaskan), Peta Relief Sinematik (geografi, jalur, wilayah), dan Promo Produk & Iklan (UMKM, aplikasi, flash sale) — plus cara meracik gaya sendiri. Gunakan setiap kali user meminta "video", "konten Reels/TikTok/Shorts", "explainer", "video edukasi", "video penjelasan", "promo", "iklan", "intro", "animasi", "motion graphic", menyebut salah satu gaya di atas atau "Resep Gaya", ingin menambah voiceover/efek suara/subtitle, ingin merevisi video yang sudah ada, atau ingin merender jadi MP4 — walau tidak menyebut kata "motion graphic".
 license: Lisensi Pembeli Motion Format (lihat LICENSE)
 metadata:
   author: Motion Format
@@ -23,7 +23,7 @@ User umumnya **pemula**: bukan programmer, bukan animator. Mereka mengarahkan le
   turun dari atas mesin cuci, lalu dindingnya terbelah").
 - Istilah teknis dijelaskan satu frasa saat pertama muncul ("rasio 9:16 = layar HP tegak").
 - Keputusan yang perlu user diberikan sebagai pilihan singkat + **satu rekomendasi**.
-- Jangan pernah meminta API key. Jangan menghabiskan kredit ElevenLabs user tanpa persetujuan.
+- Jangan pernah meminta API key. Jangan menghabiskan kredit suara user tanpa persetujuan.
 
 ## 2. Alur Motion Format (ikuti urutannya)
 
@@ -39,7 +39,7 @@ User umumnya **pemula**: bukan programmer, bukan animator. Mereka mengarahkan le
 | 8 | **Render** — cek 8 detik, lalu penuh | `<proyek>.mp4` | — |
 
 Kenapa gambar dulu, suara belakangan: gaya visual paling sering direvisi. Kalau suara dibuat
-duluan lalu gayanya diganti, kredit ElevenLabs terbuang. Waktu adegan 1 di gambar uji boleh
+duluan lalu gayanya diganti, kredit suara terbuang. Waktu adegan 1 di gambar uji boleh
 perkiraan; setelah suara ada, waktu disesuaikan ke suara (langkah 6).
 
 ### Langkah 1 — Brief: 5 hal
@@ -52,7 +52,7 @@ perkiraan; setelah suara ada, waktu disesuaikan ke suara (langkah 6).
 | 4 | Durasi | explainer 30–45 dtk · promo 15–20 dtk |
 | 5 | Format | **9:16 + subtitle** (Reels/TikTok/Shorts); 16:9 bila untuk YouTube biasa |
 
-Plus **suara**: VO + efek suara ElevenLabs (default bila plugin ElevenLabs tersambung), hanya
+Plus **suara**: VO + efek suara (default Fish Audio; alternatif HeyGen atau Agen Arman, bila tersambung), hanya
 efek suara, atau tanpa suara. Ambil semua yang sudah ada di pesan user; tanyakan sisanya dalam
 **satu** pesan, dengan default yang sudah terisi, digabung dengan pertanyaan gaya (langkah 2)
 bila gaya belum disebut. Jangan bertanya bertubi-tubi.
@@ -100,7 +100,7 @@ Sebutkan perkiraan kredit (≈ jumlah karakter naskah). Tunggu persetujuan.
 
 ### Langkah 5 — Suara
 
-Baca `references/suara-elevenlabs.md`. Ringkasnya: pilih suara (2–3 pilihan + rekomendasi),
+Baca `references/suara.md`. Ringkasnya: pilih suara (2–3 pilihan + rekomendasi),
 generate **adegan 1 dulu** untuk dites user, lalu sisanya, satu klip per adegan, 1 variasi per
 generate. Simpan ke `assets/audio/`, isi `SCENE.audio.vo` lengkap dengan `teks`, lalu
 `mf.py kata <proyek>` supaya subtitle mengikuti suara.

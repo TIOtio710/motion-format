@@ -27,7 +27,7 @@ revisi terakhir) atau `mf.py riwayat` lalu `pulihkan <nomor>`.
 | "objeknya terpotong / kekecilan" (9:16) | atur ulang komposisi tegak: kamera lebih jauh atau sudut lebih rendah, subjek mengisi 50–70% tinggi |
 | "adegan N kelamaan / kecepetan" | ubah durasi adegan itu saja; bila ada VO, geser jeda (`at`), bukan memotong suara |
 | "ganti teks/judul/warna" | ganti di adegan terkait; warna → perbarui `gaya.md` juga supaya konsisten |
-| "tambah caption/subtitle" | `SCENE.sub` + `kata.js` (lihat `suara-elevenlabs.md` §6) |
+| "tambah caption/subtitle" | `SCENE.sub` + `kata.js` (lihat `suara.md` §6) |
 | "ganti suara / suaranya kurang semangat" | generate ulang dengan suara/tag nada baru (sebut kredit dulu) → ukur durasi baru → geser `at` dan waktu adegan → `mf.py kata` ulang |
 | "ganti gaya jadi X" | gambar dan gaya berubah, suara & waktu tetap: ganti `gaya.md`, bangun ulang visual di waktu yang sama (0 kredit suara) |
 | "pakai warna brand-ku" | ambil hex dari logo/situs user; ganti utama & aksen, pertahankan kontras |

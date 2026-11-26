@@ -119,7 +119,7 @@ Cahaya **bukan** dikunci di kode. `sinarKuat`, `mekar`, `noda`, `vin`, `surya`, 
 - Setelah layar tertutup penuh, adegan baru langsung dibuka dalam ≤0,2 dtk. Jangan biarkan layar putih atau polos lama.
 
 ## Suara
-- **VO (ElevenLabs v4):** pencerita hangat dan pelan seperti mendongeng, ±15–17 huruf per detik, jeda "…" sebelum fakta kejutan. Untuk noir, suara lebih rendah dan berbisik ([whispers] secukupnya).
+- **VO:** pencerita hangat dan pelan seperti mendongeng, ±15–17 huruf per detik, jeda "…" sebelum fakta kejutan. Untuk noir, suara lebih rendah dan berbisik ([whispers] secukupnya).
 - **Musik:** ambient sinematik (pad, piano, cello, celesta). Noir memakai cello rendah + kontrabas pizzicato, anime memakai strings + celesta, ukiran/manuskrip memakai harpa + paduan suara lembut. Volume 0,25–0,32, di-duck oleh VO.
 - **SFX pelan dan jarang:** satu bunyi per momen, ditaruh di jeda VO. Contohnya whoosh lembut saat awan tersibak, glow/chime saat sinar menyala atau label emas muncul, swish saat transisi, thump saat cap atau angka mendarat. Ambience loop sangat pelan (angin gunung, ombak, jangkrik) 0,06–0,1. Jangan ada bunyi pena atau spidol.
 

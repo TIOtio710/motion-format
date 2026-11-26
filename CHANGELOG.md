@@ -19,7 +19,7 @@ Ditulis ulang dari nol dengan alur kerja dan gaya Motion Format.
 
 **Diubah**
 - Suara dibuat setelah gambar uji & naskah disetujui (sebelumnya sebelum animasi).
-- Panduan suara ElevenLabs diperbarui (model v4, efek suara di jeda VO, `teks` per klip).
+- Panduan suara diperbarui (tag nada, efek suara di jeda VO, `teks` per klip).
 
 **Dihapus**
 - Seluruh isi lama yang bukan buatan Motion Format: starter explainer lama, katalog konsep opener,

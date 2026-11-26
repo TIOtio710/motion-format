@@ -71,7 +71,7 @@
 - Teks kepala (kicker, judul) dijepit ke lebar `AMAN` (kiri 70 – kanan 930). Judul panjang: kecilkan atau pecah 2 baris, jangan sampai tepi layar.
 
 ## Suara
-- **VO (ElevenLabs v4):** suara pria/wanita hangat ala narator dokumenter, tempo sedang (±2,7 kata/dtk), nada "cerita rahasia". Pakai tag gaya seperlunya: `[curious]` di hook, `[serious]` di angka, `[warm]` di penutup. Kalimat pendek dan angka dieja sebagai kata ("sembilan puluh ribu").
+- **VO:** suara pria/wanita hangat ala narator dokumenter, tempo sedang (±2,7 kata/dtk), nada "cerita rahasia". Tag gaya seperlunya, bila mesin mendukung: `[curious]` di hook, `[serious]` di angka, `[warm]` di penutup. Kalimat pendek dan angka dieja sebagai kata ("sembilan puluh ribu").
 - **Musik:** ambient sinematik pelan (pad + perkusi lembut), volume 0,25–0,3, turun saat VO (duck).
 - **SFX:** satu bunyi per momen, pelan (vol 0,15–0,22), dan diletakkan di jeda VO:
   - angin/whoosh lembut saat kamera menembus awan;

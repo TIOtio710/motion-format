@@ -90,7 +90,7 @@ Contoh 45 dtk. Tiap baris = satu kalimat VO; geser angka mengikuti `kata.js`.
 - Label muncul bergiliran 0,3 dtk; hilang serempak saat ganti tahap.
 
 ## Suara
-- **VO** ElevenLabs `eleven_v4`, nada tenang-penasaran ala dosen muda yang ramah, tempo sedang. Tag jarang: `[curious]` di kalimat pertama, `[thoughtful]` sebelum cara kerja. Kalimat pendek, sebut nama bagian persis seperti label. ±30 dtk ≈ 70–80 kata.
+- **VO** nada tenang-penasaran ala dosen muda yang ramah, tempo sedang. Tag jarang, bila mesin mendukung: `[curious]` di kalimat pertama, `[thoughtful]` sebelum cara kerja. Kalimat pendek, sebut nama bagian persis seperti label. ±30 dtk ≈ 70–80 kata.
 - **Musik** instrumental lembut (marimba/kalimba atau synth pluck), 90–100 BPM, volume ±0,12, diredam saat VO.
 - **SFX** pelan & jarang, satu bunyi per momen, diletakkan di jeda VO: whoosh lembut saat lingkaran zoom; klik plastik kecil saat panel lepas; "sret" tipis saat bidang potong menyapu; tik halus hanya untuk 1–2 label penting (bukan setiap label); dengung motor naik saat putaran mulai; gemericik saat air mengalir di selang. Volume 0,2–0,35.
 - Buat suara setelah gambar adegan 1 disetujui. Isi `SCENE.audio={vo:[{src,at}],sfx:[{src,at,vol}],music:{src,vol}}`, lalu `mf.py kata` untuk subtitle.
